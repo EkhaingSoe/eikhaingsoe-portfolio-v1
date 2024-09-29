@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "remixicon/fonts/remixicon.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* Default styles for light mode */
+    body {
+      @apply bg-white text-black;
+    }
+  
+    /* Styles for dark mode */
+    .dark body {
+      @apply bg-gray-900 text-white;
+    }
+  }
