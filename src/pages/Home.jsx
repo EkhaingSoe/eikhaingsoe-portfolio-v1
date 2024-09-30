@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import ColorSelector from '../components/ColorSelector';
-import eikhaingsoe from "../assets/images/eikhaingsoe.jpeg";
+import eikhaingsoe from "../assets/images/eks.jpg";
 import { useAppContext } from '../contexts/AppContext';
 import '../style/Home.css'
 import About from './About';
@@ -20,11 +20,11 @@ const Home = () => {
         <div className="flex flex-wrap w-full">
           <div className="min-[992px]:w-[50%] w-full px-[12px]">
             <div className="bix-hero-img relative aos-init aos-animate" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
-              <div className="hero-inner-img relative">
+              <div className="hero-inner-img  relative">
                 <img 
                   src={eikhaingsoe}
                   alt="hero" 
-                  className="hero-parallax w-[calc(100%-300px)] mt-auto mx-auto mb-[50px] block max-[1399px]:w-[calc(100%-260px)] max-[1199px]:w-[calc(100%-215px)] max-[991px]:w-[calc(100%-400px)] max-[767px]:w-[calc(100%-250px)] max-[575px]:w-[210px]" 
+                  className="hero-parallax rounded-full border-4 border-[var(--hover-color)] p-2 w-[calc(100%-300px)] mt-auto mx-auto mb-[50px] block max-[1399px]:w-[calc(100%-260px)] max-[1199px]:w-[calc(100%-215px)] max-[991px]:w-[calc(100%-400px)] max-[767px]:w-[calc(100%-250px)] max-[575px]:w-[210px]" 
                   style={{ transform: 'translate3d(-15px, 7px, 0px)' }} // Corrected style prop
                 />
               </div>
@@ -33,7 +33,7 @@ const Home = () => {
           <div className="min-[992px]:w-[50%] w-full px-[12px]">
             <div className="bix-hero-contact h-full flex flex-col justify-center relative max-[991px]:mt-[15px] max-[991px]:pb-[30px] max-[991px]:items-center max-[575px]:text-center">
               <h4 className="mb-[8px] font-montserrat tracking-[0.03rem] leading-[1.2] text-[35px] font-bold text-[var(--hover-color)] max-[1399px]:text-[32px] max-[1199px]:text-[28px] max-[767px]:text-[24px] aos-init aos-animate"  >Hi, I am</h4>
-              <h1 className="mb-[16px] text-[78px] text-[#111a24] font-bold relative tracking-[0.03rem] leading-[1.2] max-[1399px]:text-[70px] max-[1199px]:text-[52px] max-[767px]:text-[38px] aos-init aos-animate"  >Ei Khaing Soe</h1>
+              <h1 className="mb-[16px] text-[78px] text-[#18212c] font-bold relative tracking-[0.03rem] leading-[1.2] max-[1399px]:text-[70px] max-[1199px]:text-[52px] max-[767px]:text-[38px] aos-init aos-animate"  >Ei Khaing Soe</h1>
               <p className="font-montserrat text-[27px] font-semibold text-[#111a24] leading-[26px] tracking-[0.03rem] max-[1399px]:text-[24px] max-[1199px]:text-[20px] max-[767px]:text-[18px] aos-init aos-animate" data-aos="fade-up" data-aos-duration="2000" >I am a
                 <span className="mx-[5px]  text-[var(--hover-color)]">App Developer</span>
               </p>

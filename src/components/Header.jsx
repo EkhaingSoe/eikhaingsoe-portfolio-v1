@@ -14,7 +14,7 @@ const Header = () => {
         <div className="text-xl font-bold text-black dark:text-white">
           Ei <span style={{ color: selectedColor }}>Khaing</span>
         </div>
-        <ul className="flex space-x-6">
+        <ul className="flex space-x-6  hidden md:block">
           <li><a href="/"  className="hover:text-[var(--hover-color)] dark:hover:text-[var(--hover-color)] dark:text-white dark:text-opacity-50 font-medium">Home</a></li>
           <li><a href="/about"  className="hover:text-[var(--hover-color)] dark:hover:text-[var(--hover-color)] dark:text-white dark:text-opacity-50 font-medium">About</a></li>
           <li><a href="/project"  className="hover:text-[var(--hover-color)] dark:hover:text-[var(--hover-color)] dark:text-white dark:text-opacity-50 font-medium">Project</a></li>

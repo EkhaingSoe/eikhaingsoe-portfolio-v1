@@ -1,0 +1,36 @@
+.creativity{
+    text-shadow: 1px 1px #111a24, -2px 1px #111a24, 1px -1px #111a24, -1px -1px #111a24;
+}
+
+.text-circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    transform: rotate(-35deg); /* Adjust this for correct rotation */
+  }
+  
+  .text-circle span {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+    font-weight: bold;
+  }
+  
+  .text-circle span:before {
+    content: attr(data-text);
+    position: absolute;
+    white-space: nowrap;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.75rem; /* Adjust font size as needed */
+  }
+  
